@@ -5,7 +5,7 @@ Here is an example of evaluating a model (fine-tuned either on MNLI or SNLI) usi
 The WANLI dataset can be accessed either from [Google Drive](https://drive.google.com/drive/u/0/folders/1tbLcQUF2W9ClanTLv9EWAEFuMz8iQ2AE) or [HuggingFace](https://huggingface.co/datasets/alisawuffles/WANLI).
 You may then convert test.jsonl to test.txt (tab separated) using the following Python script:
 
-```bash
+```python
 import csv
 import json
 with open('data/WANLI/test.jsonl') as old, open('data/WANLI/test.txt', 'w') as csvfile:
