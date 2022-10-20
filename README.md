@@ -18,7 +18,7 @@ with open('data/WANLI/test.jsonl') as old, open('data/WANLI/test.txt', 'w') as c
       first = False
     new.writerow(row.values())
 ```
-Next, in test.txt, join the line 4871 to the end of the line 4870 to prevent later errors.
+Next, in test.txt, join the line 4871 to the end of the line 4870 to prevent later errors. If you are working with train.jsonl, you should join the line 3175 to the end of the line 3174 and the line 3204 to that of the line 3203 in train.txt.
 
 This is an example of using run_wanli_mnli.py in Google Colab:
 
